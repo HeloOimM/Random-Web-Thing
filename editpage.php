@@ -6,7 +6,7 @@ $amount = $_POST['amount'];
 $price = $_POST['price'];
 $unique_number = $_POST['unique_number'];
 $image = $_POST['image'];
-$sql = "update order.emp5 set item = '$item', unique_number = '$unique_number', amount = '$amount', price = '$price', image = '$image' where id = $id";
+$sql = "update emp5 set item = '$item', unique_number = '$unique_number', amount = '$amount', price = '$price', image = '$image' where id = $id";
 $query = mysqli_query($connect2, $sql);
 if ($query) {
 echo "<script>
@@ -16,6 +16,7 @@ location.href = 'home.php';
 }
 else {
 echo "<script>alert('Failed');
-location.href = 'home.php'</script>";
+location.href = 'index.php'</script>";
 }
+
 ?>
