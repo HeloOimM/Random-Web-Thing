@@ -11,10 +11,11 @@ if (mysqli_num_rows($result) > 0 ) {
 session_start();
 $_SESSION["username"] = $user;
 echo "<script>alert('Success');
-location.href = 'home.php'</script>";
+location.href = 'index.php'</script>";
 }
 else {
 echo "<script>alert('Failed');
 location.href = 'loginpage.php'</script>";
 }
+
 ?>
