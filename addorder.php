@@ -42,11 +42,12 @@
 <tr><td><label for="image">Image</label></td><td>:</td><td>
         <input type="text" placeholder="Enter Image Link" name="image" required></td></tr>
 </table>
-    <div><button class="submit" type="submit" value="Submit">Submit</button><br><a href="home.php">View Order</a></div>
+    <div><button class="submit" type="submit" value="Submit">Submit</button><br><a href="index.php">View Order</a></div>
     
 
 </div>
 </form>
 </div>
 </body>
+
 </html>
