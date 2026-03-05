@@ -21,11 +21,12 @@ mysqli_stmt_bind_param($insertstmt, "ss", $user, $password);
 if (mysqli_stmt_execute($insertstmt)) {
 echo "<script>
 alert('Account Successfully Created!');
-location.href = 'home.php';
+location.href = 'index.php';
 </script>";
 }
 else {
 echo "<script>alert('Failed');
-location.href = 'home.php'</script>";
+location.href = 'index.php'</script>";
 }
+
 ?>
