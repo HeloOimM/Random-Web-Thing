@@ -6,4 +6,3 @@ die("Could not link: ".mysqli_connect_error());
 }
 
 ?>
-
